@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
-      <MusicSchoolTestimonials/>
+      <MusicSchoolTestimonials />
+      <UpcomingWebinars />
       <Footer />
     </main>
   );
